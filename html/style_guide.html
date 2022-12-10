@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <title>P03 - Portfolio Style Guide </title>
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link href="../css/main.css" rel="stylesheet">
+        <link href="../css/flexbox.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/animations.css">
+        <link rel="stylesheet" href="https://use.typekit.net/zud4esk.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header-text-box">
+            <h4>Passionate interface and interaction designer </h4>
+            <h5>Contact: <a href="mailto:jaspergass@outlook.com">jaspergass@outlook.com</a> </h5>
+            <h5>he/they</h5>
+            </div>
+            <a href="../index.html">
+                <div class="header-title-box header-cursor">
+                <h1 class="header-cursor">Jasper Gass</h1>
+                <h3 class="header-cursor">an e-portfolio</h3>
+                <img class="header-img header-cursor" src="../img/star.svg" alt="">
+                <div class="header-line header-cursor"></div>
+                </div>
+            </a>
+            <div class="header-box"></div>
+        </header>
+    
+        <nav>
+            <form action="../index.html">
+              <button>Main Site</button>
+            </form>
+            <form action="#branding">
+              <img src="../img/star.svg" alt="">
+              <button class="nav-button">Branding</button>
+            </form>
+            <form action="#interactive-elements">
+              <img src="../img/star.svg" alt="">
+              <button class="nav-button">Interactive Elements</button>
+            </form>
+            
+            <div class="line"></div>
+        </nav>
+
+        <div class="box-column body-box">
+            <!-- BRANDING SECTION -->
+            <section id="branding" class="box-column">
+                <h2>Branding</h2>
+                <!-- color -->
+                <div class="element">
+                    <h3>Visuals</h3>
+                    <div class="visuals">
+                    <div class="box-color"></div>
+                    <div class="box-color"></div>
+                    <div class="box-color"></div>
+                    <div class="box-color"></div>
+                    <div class="box-color"></div>
+                    <img class="star-img" src="../img/star.svg" alt="">
+                    </div>
+                </div>
+                <!-- headings -->
+                <div class="element">
+                    <h3>Headings</h3>
+        
+                    <h4>CSS selector:</h4>
+                    <p>h1,h2,h3,h4</p>
+            
+                    <h4>Code:</h4>
+                    <code>&lt;h1&gt;This is a sample h1 heading.&lt;/h1&gt;</code>
+        
+                    <h4>Rendered example:</h4>
+                    <div class="rendered">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    </div>
+                </div>
+                <!-- paragraphs -->
+                <div class="element">
+                    <h3>Paragraphs</h3>
+        
+                    <h4>CSS selector:</h4>
+                    <p>p
+                    </p>
+            
+                    <h4>Code:</h4>
+                    <code>&lt;p&gt;This is a sample paragraph.&lt;/p&gt;</code>
+        
+                    <h4>Rendered example:</h4>
+                    <div class="rendered">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus efficitur enim in placerat. Proin quis risus vitae urna tincidunt tincidunt id a velit.
+                    </p>
+                    </div>
+                </div>
+                
+                <!-- numbered lists -->
+                <div class="element">
+                    <h3>Numbered Lists</h3>
+                    <h4>CSS selector:</h4>
+                    <p>
+                    ol<br>
+                    ol li
+                    </p>
+            
+                    <h4>Code:</h4>
+                    <code>&lt;ol type="1"&gt;</code>
+                    <code>&lt;li&gt;List item.&lt;/li&gt;</code>
+                    <code>&lt;/ol&gt;</code>
+        
+                    <h4>Rendered example:</h4>
+                    <div class="rendered">
+                    <ol type="1">
+                        <li>item one</li>
+                        <li>item two</li>
+                        <li>item three</li>
+                    </ol>
+                    </div>
+                </div>
+            </section>
+            <!-- //BRANDING SECTION -->
+
+            
+            <!-- INTERACTIVE ELEMENTS SECTION -->
+            <section id="interactive-elements" class="box-column">
+                <h2>Interactive Elements</h2>
+                <!-- in text links -->
+                <div class="element">
+                    <h3>In-text link</h3>
+        
+                    <h4>CSS selector:</h4>
+                    <p>a:hover</p>
+        
+                    <h4>Code:</h4>
+                    <code>&lt;a href="link" target="_blank"&gt;In-text link&lt; /a&gt;</code>
+                    
+                    <h4>Rendered example:</h4>
+                    <div class="rendered">
+                    <p>
+                        Here is an in-text link to <a href="../index.html" target="_blank">learn more about me!</a>
+                    </p>
+                    </div>
+                </div>
+                <!-- buttons -->
+                <div class="element">
+                    <h3>Submit/Reset Buttons</h3>
+            
+                    <h4>CSS selector:</h4>
+                    <p>.button</p>
+                    <p>.button:hover, .button:focus</p>
+            
+                    <h4>Code:</h4>
+                    <code>&lt;button type="submit" value="Submit"&gt;Submit&lt;/button&gt;</code>
+                    <code>&lt;button type="reset" value="Reset"&gt;Reset&lt;/button&gt;</code>
+        
+                    <h4>Rendered example:</h4>
+                    <div class="rendered">
+                    <button class="button" onclick="alert('Submitted!')">Submit</button>
+                    <button class="button" onclick="alert('Reset!')">Reset</button>
+                    </div>
+                </div>
+                <!-- text inputs -->
+                <div class="element">
+                    <h3>Text Input Field with Label</h3>
+            
+                    <h4>CSS selector:</h4>
+                    <p>input</p>
+                    <p>input:focus</p>
+                    <p>input:hover</p>
+        
+                    <h4>Code:</h4>
+                    <code>&lt;label for="textinput"&gt;Label&lt;/label&gt;</code>
+                    <code>&lt;input type="text" id="textinput" name="textinput"&gt;</code>
+                    
+                    <h4>Rendered example:</h4>
+                    <div class="rendered">
+                    <label for="label">Label:</label>
+                    <input type="text" id="label" name="label">
+                    </div>
+                </div>
+                <!-- radio buttons -->
+                <div class="element">
+                    <h3>Radio Button with Label</h3>
+            
+                    <h4>CSS selector:</h4>
+                    <p>input[type="radio"]</p>
+            
+                    <h4>Code:</h4>
+                    <code>&lt;label for="radioEx"&gt;Radio label&lt;/label&gt;</code>
+                    <code>&lt;input type="radio" name="radioEx" value="Item1"&gt;Item1</code>
+        
+                    <h4>Rendered element:</h4>
+                    <div class="rendered">
+                    <label for="radioEx">Radio label for buttons:</label>
+                    <input id="radioEx" type="radio" name="radioEx" value="Item1"> Item1
+                    <input type="radio" name="radioEx" value="Item2"> Item2
+                    <input type="radio" name="radioEx" value="Item3"> Item3
+                    </div>
+                </div>
+                <!-- image as a link -->
+                <div class="element">
+                    <h3>Image as a Link</h3>
+            
+                    <h4>CSS selector:</h4>
+                    <p>.img-link</p>
+                    <p>.img-link:hover, .img-link:active</p>
+            
+                    <h4>Code:</h4>
+                    <code>&lt;a href="link" target="_blank"&gt;</code>
+                    <code>&lt;div class="img-link" alt"alt text."&gt;&lt;/div&gt;</code>
+                    <code>&lt;/a&gt;</code>
+        
+                    <h4>Rendered element:</h4>
+                    <a target="_blank">
+                    <div class="img-link"></div>
+                    </a>
+                </div>
+                
+                
+            </section>
+            <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+            <!-- CITATIONS -->
+            <section id="citations" class="box-column">
+                <h2>Citations</h2>
+                <div class="element">
+                    <ul>
+                        <li>CodyHouse. (2020, December 15). <span class="italic">Custom cursor in CSS.</span> CodyHouse. Retrieved December 8, 2022, from <a href="https://codyhouse.co/nuggets/custom-cursor">https://codyhouse.co/nuggets/custom-cursor</a></li>
+                        <li><span class="italic">HTML Tag. </span>W3 Schools. (n.d.). Retrieved December 8, 2022, from <a href="https://www.w3schools.com/tags/tag_address.asp" target="_blank">https://www.w3schools.com/tags/tag_address.asp</a></li>
+                        <li><span class="italic">Overflow-wrap. </span>MDN Web Docs. (n.d.). Retrieved December 8, 2022, from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap" target="_blank">https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap</a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- //CITATIONS -->
+        </div>
+    </body>
+
+</html>

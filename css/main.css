@@ -1,0 +1,185 @@
+/* ------ Text ----- */
+body{
+  font-family: "tenon", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+  font-family:"house-of-cards";
+  font-weight: 400;
+  font-size:3em;
+  margin:0;
+  margin-bottom:0.2em;
+  
+}
+
+h2{
+  font-family:"house-of-cards";
+  font-weight: 400;
+  font-size:2.2em;
+  margin:0;
+  margin-bottom:0.2em;
+}
+
+h3{
+  font-family:"tenon";
+  font-size:1.7em;
+  margin:0;
+  font-weight: 400;
+  color:rgb(113, 109, 105);
+}
+
+h4{ 
+  font-family:"tenon";
+  font-size:1.4em;
+  margin-top:0.25em;
+  margin-bottom:0.25em;
+  padding:0;
+  font-weight: 300;
+}
+
+h5{
+  font-family:"tenon";
+  font-size:1em;
+  margin-top:0.25em;
+  margin-bottom:0.25em;
+  font-weight: 300;
+}
+
+p{
+  font-family:"tenon";
+  font-size:1.2em;
+  line-height:1.6em;
+}
+
+.italic{
+  font-style:italic;
+}
+/* ----end of text ----*/
+
+
+/* ---- IMG ----*/
+
+img{
+  height: auto;
+  max-width:100%;
+}
+
+.img-link{
+  background-image: url('../img/IMG_6348.JPG');
+  min-height: 30em;
+  min-width:20em;
+  background-size: cover;
+}
+
+.img-link:hover,.img:link:active{
+  background-image: url('../img/IMG_6348-dithered.png');
+}
+
+.star-img{
+  max-width:3em;
+}
+
+/* nav bar graphic */
+.line{
+  width:0.08em;
+  height:100%;
+  position:absolute;
+  left:1.5em;
+  z-index:-2;
+
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+}
+
+
+.header-img{
+  position:absolute;
+  max-width: 3em;
+  right:2em;
+  top:4.5em;
+  z-index: 1;
+}
+
+.header-line{
+  width:16em;
+  height:0.08em;
+  
+  position:absolute;
+  top:6em;
+  right:1em;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+
+}
+/*---- //IMG ---- */
+
+/*---- INTERACTIVE ELEMENTS ------ */
+button{
+  font-family: "house-of-cards";
+  font-weight: 400;
+  font-size:1.5em;
+  text-align: center;
+  
+  border-style:solid;
+  border-color: rgb(113, 109, 105);
+  border-width: 0.08em;
+  padding:0.6em;
+  padding-right: 1em;
+  display: block;
+  background-color:white;
+
+  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+}
+
+
+button:hover, button:active{
+  box-shadow: inset 0em 0em 0.1em rgb(101, 101, 101);
+}
+
+code{
+  background-color: rgb(241, 237, 234);
+  padding: 0.5rem;
+  display: block;
+
+}
+
+input[type="text"]{
+  border-style:dotted;
+  border-width:0.1em;
+  border-color:black;
+  width:100%;
+}
+
+input:hover, input:active{
+  border-style:solid;
+}
+
+a{
+  color:black;
+  text-decoration-style:dotted;
+  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+  margin:0;
+  width:fit-content;
+
+  /* referenced https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+a:hover,a:active{
+  text-decoration-style:solid;
+}
+
+.header-cursor{
+  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+}
+/*---- //INTERACTIVE ELEMENTS ----*/
+
+
+
+form{
+  margin:0;
+}
