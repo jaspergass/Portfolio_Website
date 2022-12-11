@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-  font-family:"house-of-cards";
+  font-family:"sheepman";
   font-weight: 400;
   font-size:3em;
   margin:0;
@@ -13,7 +13,7 @@ h1{
 }
 
 h2{
-  font-family:"house-of-cards";
+  font-family:"sheepman";
   font-weight: 400;
   font-size:2.2em;
   margin:0;
@@ -119,7 +119,7 @@ img{
 
 /*---- INTERACTIVE ELEMENTS ------ */
 button{
-  font-family: "house-of-cards";
+  font-family: "sheepman";
   font-weight: 400;
   font-size:1.5em;
   text-align: center;
