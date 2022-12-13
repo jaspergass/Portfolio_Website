@@ -104,7 +104,7 @@ section{
   position: absolute;
   top:0;
   right:0;
-  width:95vw;
+  width:93vw;
   height:8em;
   border-bottom: solid black 0.1em;
   border-left:solid black 0.1em;
@@ -233,7 +233,7 @@ nav img{
 		top:11em;
 	}
 	.body-box{
-		margin-top:35em;
+		margin-top:38em;
 		margin-left:5vw;
 		gap:1em;
 	}
@@ -251,7 +251,7 @@ nav img{
 		top:21em;
 	}
   	.body-box{
-		margin-top:38em;
+		margin-top:40em;
 	}
 	.two-img{
 		width:100%;
@@ -277,6 +277,6 @@ nav img{
 		top:23em;
 	}
 	.body-box{
-		margin-top:40em;
+		margin-top:42em;
 	}
 }

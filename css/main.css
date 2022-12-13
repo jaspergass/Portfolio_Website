@@ -208,8 +208,11 @@ a:hover,a:active{
   background-repeat: no-repeat;
   min-width:6.3em;
   border:none;
+  
 }
-
+.spacer-lightswitch{
+  height: 10em;
+}
 .lightswitch:hover, .lightswitch:active, .lightswitch2:hover, .lightswitch2:active{
   box-shadow: none;
 }
