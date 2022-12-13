@@ -191,6 +191,9 @@ a:hover,a:active{
   padding-left: 5vw;
   padding-right: 5vw;
 }
+#black-box * {
+  cursor: url('../img/cursor-white.svg') 17.5 17.5, auto;
+}
 .black-box code{
   background:none;
 }
@@ -208,11 +211,8 @@ a:hover,a:active{
   background-repeat: no-repeat;
   min-width:6.3em;
   border:none;
-  
 }
-.spacer-lightswitch{
-  height: 10em;
-}
+
 .lightswitch:hover, .lightswitch:active, .lightswitch2:hover, .lightswitch2:active{
   box-shadow: none;
 }
@@ -225,7 +225,6 @@ a:hover,a:active{
   background-repeat: no-repeat;
   min-width:6.271em;
   border:none;
-  position:absolute;
-  right:5vw;
+  
 
 }
