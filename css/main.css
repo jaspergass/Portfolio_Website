@@ -200,6 +200,29 @@ a:hover,a:active{
 .black-box .tab2{
   text-indent:4em;
 }
+
 .lightswitch{
-  max-width:8em;
+  background-image: url('../img/switch.jpg');
+  min-height:10em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width:6.3em;
+  border:none;
+}
+
+.lightswitch:hover, .lightswitch:active, .lightswitch2:hover, .lightswitch2:active{
+  box-shadow: none;
+}
+
+.lightswitch2{
+  background-color: black;
+  background-image: url('../img/switch2.jpg');
+  min-height:10em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width:6.271em;
+  border:none;
+  position:absolute;
+  right:5vw;
+
 }
