@@ -235,8 +235,7 @@ nav img{
 		min-height:5em;
 	}
 	.header-box{
-    height:18em;
-    
+    	height:18em;
  	}
 	.header-text-box{
 		right:0;
@@ -281,9 +280,6 @@ nav img{
 	}
 	.header-img{
 		top:7.5em;
-	}
-	.header-title-box{
-		
 	}
 	.header-text-box{
 		top:13.5em;
