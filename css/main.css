@@ -193,9 +193,13 @@ a:hover,a:active{
   height:100vh;
   padding-left: 5vw;
   padding-right: 5vw;
+  cursor: url('../img/cursor-white.svg') 17.5 17.5, auto;
 }
 #black-box * {
   cursor: url('../img/cursor-white.svg') 17.5 17.5, auto;
+}
+#black-box button:hover, #black-box button:active{
+  cursor: url('../img/cursor-white-hover.svg') 17.5 17.5, auto;
 }
 .black-box code{
   background:none;
