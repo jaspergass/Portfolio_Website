@@ -243,14 +243,14 @@ nav img{
 		top:11em;
 	}
 	.body-box{
-		margin-top:38em;
+		margin-top:42em;
 		margin-left:5vw;
 		gap:1em;
 	}
 	nav{
 		position:absolute;
 		top:19em;
-		max-height:16em;
+		max-height:23em;
 	}
 	.gallery-img{
 		max-width: 31%;
@@ -269,7 +269,7 @@ nav img{
 		top:21em;
 	}
   	.body-box{
-		margin-top:40em;
+		margin-top:44em;
 	}
 	.two-img{
 		width:100%;
@@ -295,6 +295,6 @@ nav img{
 		top:23em;
 	}
 	.body-box{
-		margin-top:42em;
+		margin-top:46em;
 	}
 }
