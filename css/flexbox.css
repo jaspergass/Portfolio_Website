@@ -117,7 +117,7 @@ section{
 /*---- NAVIGATION BAR ----*/
 nav{
 	position:fixed;
-	height:50vh;
+	height:60vh;
 	min-height:15em;
 	max-height:32em;
 	width:18em;
