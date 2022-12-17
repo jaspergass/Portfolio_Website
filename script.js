@@ -1,43 +1,22 @@
+// from https://codepen.io/koko-hranghlu/pen/vYRzvRo
 
-var slideIndex = 1;
-showSlide(slideIndex);
+const gridImages = document.querySelectorAll(".grid > img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
 
-function openLightbox() {
-  document.getElementById('Lightbox').style.display = 'block';
-}
+// to open lightbox
+gridImages.forEach((img) => {
+  img.addEventListener("click", () => {
+    lightbox.classList.add("active");
+    // set the image clicked as the image of the lightbox
+    lightboxImg.src = img.src;
+  });
+});
 
-function closeLightbox() {
-  document.getElementById('Lightbox').style.display = 'none';
-}
-
-function changeSlide(n) {
-	showSlide(slideIndex += n);
-}
-
-function toSlide(n) {
-	showSlide(slideIndex = n);
-}
-
-function showSlide(n) {
-
-  const slides = document.getElementsByClassName('slide');
-  let modalPreviews = document.getElementsByClassName('modal-preview');
-
-  if (n > slides.length) {
-    slideIndex = 1;	
-  }
-  
-  if (n < 1) {
-  	slideIndex = slides.length;
-  }
-
-  for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (let i = 0; i < modalPreviews.length; i++) {
-      modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
-  }
-  
-  slides[slideIndex - 1].style.display = 'block';
-  modalPreviews[slideIndex - 1].className += ' active';
-}
+// To close lightbox
+lightbox.addEventListener("click", (e) => {
+  // if the clicked element is not the dark overlay don't close it
+  if (e.target !== e.currentTarget) return;
+  // if it was the dark overlay it will close it
+  lightbox.classList.remove("active");
+});

@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/flexbox.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="https://use.typekit.net/zud4esk.css">
-    <script src="script.js"></script>
 
   </head>
 
@@ -77,7 +76,7 @@
       </section>
       <!-- GALLERY -->
       <section class="box-column">
-        <div class="box-wrap gallery">
+        <div class="box-wrap gallery grid">
           <img class="gallery-img" src="img/gallery/P6120094.jpg" alt="A hoverfly sitting still on the tip of a leaf.">
           <img class="gallery-img" src="img/gallery/P7170135.jpg" alt="A fly on white flowers.">
           <img class="gallery-img" src="img/gallery/P6120118.jpg" alt="A black bee fly.">
@@ -87,9 +86,12 @@
         </div>
       </section>
       <!-- lightbox container hidden using css -->
-      <div id="lightbox" class="modal">
-
+      <div id="lightbox">
+        <img id="lightbox-img">
       </div>
     </div> 
+    
+    <!-- script -->
+    <script  src="./script.js"></script>
   </body>
 </html>
