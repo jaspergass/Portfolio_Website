@@ -25,6 +25,7 @@
     -webkit-flex-direction:row;
 	-ms-flex-direction:row;
 	flex-direction: row;
+	gap:1em;
 }
 
 .box-column{
@@ -36,6 +37,12 @@
     flex-direction: column;
 }
 
+.center{
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
 /*---- BODY ----*/
 .body-box{
 	margin-left:calc(20em + 8vw);
@@ -43,12 +50,12 @@
 	margin-bottom:5em;
 	margin-top:13em;
 	gap:1.2em;
-	
 }
 
 section{
 	gap:1em; 
 	width:100%;
+	
 }
 
 .element{
@@ -204,8 +211,13 @@ nav img{
 	max-width: 32%;
 }
 
-
-
+.two-column{
+	gap:1em;
+	flex:1 1 20em;
+}
+.two-column-box{
+	gap:2em;
+}
 
 /*---- MEDIA QUERIES ----*/
 @media(max-width:83em){
