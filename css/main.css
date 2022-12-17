@@ -189,10 +189,12 @@ a:hover,a:active{
 
 /*---- BLACK BOX CODE ----*/
 .black-box{
+  position:absolute;
+
   background-color:black;
   color:white;
   width:100vw;
-  height:100vh;
+  height:fit-content;
   padding-left: 5vw;
   padding-right: 5vw;
   cursor: url('../img/cursor-white.svg') 17.5 17.5, auto;
@@ -211,6 +213,21 @@ a:hover,a:active{
 }
 .black-box .tab2{
   text-indent:4em;
+}
+.black-box .tab3{
+  text-indent:6em;
+}
+.black-box .tab4{
+  text-indent:8em;
+}
+.black-box .tab5{
+  text-indent:10em;
+}
+.black-box .tab6{
+  text-indent:12em;
+}
+.black-box .tab7{
+  text-indent:14em;
 }
 
 .lightswitch{

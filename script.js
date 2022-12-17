@@ -20,3 +20,13 @@ lightbox.addEventListener("click", (e) => {
   // if it was the dark overlay it will close it
   lightbox.classList.remove("active");
 });
+
+
+function showBlackBox() {
+  var x = document.getElementById("black-box");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
