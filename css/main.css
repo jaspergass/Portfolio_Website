@@ -188,9 +188,13 @@ a:hover,a:active{
 /*---- //INTERACTIVE ELEMENTS ----*/
 
 /*---- BLACK BOX CODE ----*/
-.black-box{
+#blackbox{
+  display:none;
+}
+.blackbox{
   position:absolute;
-
+  top:0;
+  z-index:1;
   background-color:black;
   color:white;
   width:100vw;
@@ -199,34 +203,34 @@ a:hover,a:active{
   padding-right: 5vw;
   cursor: url('../img/cursor-white.svg') 17.5 17.5, auto;
 }
-#black-box * {
+#blackbox * {
   cursor: url('../img/cursor-white.svg') 17.5 17.5, auto;
 }
-#black-box button:hover, #black-box button:active{
+#blackbox button:hover, #black-box button:active{
   cursor: url('../img/cursor-white-hover.svg') 17.5 17.5, auto;
 }
-.black-box code{
+.blackbox code{
   background:none;
 }
-.black-box .tab1{
+.blackbox .tab1{
   text-indent:2em;
 }
-.black-box .tab2{
+.blackbox .tab2{
   text-indent:4em;
 }
-.black-box .tab3{
+.blackbox .tab3{
   text-indent:6em;
 }
-.black-box .tab4{
+.blackbox .tab4{
   text-indent:8em;
 }
-.black-box .tab5{
+.blackbox .tab5{
   text-indent:10em;
 }
-.black-box .tab6{
+.blackbox .tab6{
   text-indent:12em;
 }
-.black-box .tab7{
+.blackbox .tab7{
   text-indent:14em;
 }
 
@@ -237,6 +241,8 @@ a:hover,a:active{
   background-repeat: no-repeat;
   min-width:6.3em;
   border:none;
+  z-index: 2;
+  max-height:1em;
 }
 
 .lightswitch:hover, .lightswitch:active, .lightswitch2:hover, .lightswitch2:active{

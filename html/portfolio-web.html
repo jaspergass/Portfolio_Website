@@ -135,9 +135,9 @@
                         </p>
                     </div>
                     
-                    <form>
-                        <button class="lightswitch" onclick="showBlackBox()"></button>
-                    </form>
+                    
+                        <button id="lightswitch" class="lightswitch" onclick="showHide('blackbox')"></button>
+                    
                     
                 </div>
                 
@@ -156,7 +156,7 @@
             </section>
         </div> 
 
-        <div class="black-box" id="black-box">
+        <div class="blackbox" id="blackbox">
             <code>&lt;!DOCTYPE html&gt;</code>
             <code>&lt;html lang="en"&gt;</code>
             <div class="tab1">
@@ -339,7 +339,9 @@
             </div>
             <code>&lt;/html&gt;</code>
         </div> 
-        <script  src="./script.js"></script>
+
+        <script  src="../script.js"></script>
+       
     </body>
 
 </html>

@@ -22,11 +22,17 @@ lightbox.addEventListener("click", (e) => {
 });
 
 
-function showBlackBox() {
-  var x = document.getElementById("black-box");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+//from https://codepen.io/Pennedweb/pen/LYNpoZb
+function showHide(ele) {
+  var srcElement = document.getElementById(ele);
+
+  if (srcElement != null) {
+      if (srcElement.style.display == "block") {
+          srcElement.style.display = 'none';
+      }
+      else {
+          srcElement.style.display = 'block';
+      }
+      return false;
   }
 }
