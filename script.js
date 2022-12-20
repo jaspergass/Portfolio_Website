@@ -25,13 +25,19 @@ lightbox.addEventListener("click", (e) => {
 //from https://codepen.io/Pennedweb/pen/LYNpoZb
 function showHide(ele) {
   var srcElement = document.getElementById(ele);
+  var lightswitch = document.getElementById("lightswitch");
+  var switchState = new Boolean(true);
 
   if (srcElement != null) {
       if (srcElement.style.display == "block") {
           srcElement.style.display = 'none';
+          lightswitch.style.backgroundImage = "url(../img/switch.jpg)";
+          lightswitch.style.cursor = "url(../img/cursor-hover.svg) 17.5 17.5, auto";
       }
       else {
           srcElement.style.display = 'block';
+          lightswitch.style.backgroundImage = "url(../img/switch2.jpg)";
+          lightswitch.style.cursor = "url(../img/cursor-white-hover.svg) 17.5 17.5, auto";
       }
       return false;
   }
