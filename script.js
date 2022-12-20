@@ -22,7 +22,7 @@ lightbox.addEventListener("click", (e) => {
 });
 
 
-//from https://codepen.io/Pennedweb/pen/LYNpoZb
+//adapted from https://codepen.io/Pennedweb/pen/LYNpoZb
 function showHide(ele) {
   var srcElement = document.getElementById(ele);
   var lightswitch = document.getElementById("lightswitch");
