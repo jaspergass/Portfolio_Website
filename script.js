@@ -26,7 +26,6 @@ lightbox.addEventListener("click", (e) => {
 function showHide(ele) {
   var srcElement = document.getElementById(ele);
   var lightswitch = document.getElementById("lightswitch");
-  var switchState = new Boolean(true);
 
   if (srcElement != null) {
       if (srcElement.style.display == "block") {
