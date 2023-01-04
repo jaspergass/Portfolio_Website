@@ -1,6 +1,6 @@
 /* ------ Text ----- */
 body{
-  font-family: "tenon", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "open-sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -21,7 +21,7 @@ h2{
 }
 
 h3{
-  font-family:"tenon";
+  font-family:"open-sans";
   font-size:1.7em;
   margin:0;
   font-weight: 400;
@@ -29,7 +29,7 @@ h3{
 }
 
 h4{ 
-  font-family:"tenon";
+  font-family:"open-sans";
   font-size:1.4em;
   margin:0;
   margin-top:0.25em;
@@ -39,7 +39,7 @@ h4{
 }
 
 h5{
-  font-family:"tenon";
+  font-family:"open-sans";
   font-size:1em;
   margin-top:0.25em;
   margin-bottom:0.25em;
@@ -47,7 +47,7 @@ h5{
 }
 
 p{
-  font-family:"tenon";
+  font-family:"open-sans";
   font-size:1.2em;
   line-height:1.6em;
   margin:0;
@@ -176,7 +176,7 @@ code{
 
 input[type="text"]{
   border-style:dotted;
-  border-width:0.08em;
+  border-width:0.1em;
   border-color:black;
   width:100%;
 }

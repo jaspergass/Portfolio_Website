@@ -42,7 +42,7 @@ function showHide(ele) {
   }
 }
 
-//back to top button, adapted from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+//back to top button, from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
 // Get the button
 let mybutton = document.getElementById("myBtn");
