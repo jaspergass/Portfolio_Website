@@ -233,7 +233,7 @@ a h1, a h3{
   z-index:1;
   background-color:black;
   color:white;
-  width:100vw;
+  width:100%;
   height:fit-content;
   padding-left: 5vw;
   padding-right: 5vw;
