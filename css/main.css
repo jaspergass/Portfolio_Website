@@ -25,7 +25,6 @@ h3{
   font-size:1.7em;
   margin:0;
   font-weight: 400;
-  color:rgb(113, 109, 105);
 }
 
 h4{ 
@@ -84,6 +83,10 @@ img{
 
 .star-img{
   max-width:3em;
+}
+
+.img-border{
+  border: solid black 0.1em;
 }
 
 /* nav bar graphic */
@@ -186,7 +189,7 @@ input:hover, input:active{
 }
 
 a{
-  color:black;
+  color:rgb(113, 109, 105);
   text-decoration-style:dotted;
   cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
   margin:0;
@@ -201,11 +204,22 @@ a{
 }
 
 a:hover,a:active{
+  color:black;
   text-decoration-style:solid;
 }
 
+a h1, a h3{
+  color:black;
+}
 .header-cursor{
   cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+}
+
+#lightbox{
+  cursor: url('../img/cursor-white-hover.svg') 17.5 17.5, auto;
+}
+#lightbox-img{
+  cursor: url('../img/cursor-white.svg') 17.5 17.5, auto;
 }
 /*---- //INTERACTIVE ELEMENTS ----*/
 
