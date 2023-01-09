@@ -121,7 +121,9 @@ img{
 
 }
 
-
+.gallery-img{
+  cursor: url('../img/cursor-hover.svg') 17.5 17.5, auto;
+}
 
 /*---- //IMG ---- */
 
